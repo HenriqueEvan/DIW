@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+</head>
+
+<body>
+
+<h1>Calculadora JavaScript</h1>
+
+<script>
+    // Código JavaScript para interagir com o usuário
+    
+    // Exibe um alerta
+    alert("Por favor insira sua nota!");
+    
+    // Solicita um número ao usuário
+    var nota1 = prompt("Digite a primeira nota:");
+    if (nota1 >= 0){
+        alert("Nota Válida!");
+}
+    else {
+    alert("Nota Inválida!");
+}
+     nota2 = prompt("Digite a segunda nota:");
+     if(nota2 >= 0){
+        alert("Nota Válida!");
+}
+else {
+    alert("Nota Inválida!");
+}
+    var nota3 = prompt("Digite a segunda nota:");
+    if(nota3 >= 0){
+        alert("Nota Válida!");
+}
+    else {
+    alert("Nota Inválida!");
+}
+    
+    
+    // Converte os valores de string para número e calcula a média
+    
+       var soma = parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) ;
+       var media = parseFloat(soma) / parseFloat(3); 
+    
+    
+    // Exibe o resultado
+    alert("A Média das notas: " + media);
+    </script>
+
+</body>
+</html> 

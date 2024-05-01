@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+</head>
+
+<body>
+
+<h1>Calculadora JavaScript</h1>
+
+<script>
+    // Código JavaScript para interagir com o usuário
+    
+    // Exibe um alerta
+    alert("Por favor escolha uma operação: (+)soma, (-)subtração, (*)multiplicação ou (/)divisão!");
+    var operação = prompt("Digite a operação");
+    //Solicita qual operação realizar
+    switch (operação){
+        //soma
+        case "+": 
+        var numero1 = prompt("Digite o primeiro número:");
+    if (numero1 >= 0){
+        alert("Número Válido!");
+}
+    else {
+    alert("Número Inválido!");
+}
+    var numero2 = prompt("Digite o segundo número:");
+     if(numero2 >= 0){
+        alert("Número Válido!");
+}
+else {
+    alert("Número Inválido!");
+}
+        // Converte os valores de string para número e calcula o resultado
+        var resultado = parseFloat(numero1) + parseFloat(numero2);
+         // Exibe o resultado
+        alert("Resultado: " + resultado);
+        break;
+        //subtração
+        case "-":
+    var numero1 = prompt("Digite o primeiro número:");
+    if (numero1 >= 0){
+        alert("Número Válido!");
+}
+    else {
+    alert("Número Inválido!");
+}
+    var numero2 = prompt("Digite o segundo número:");
+     if(numero2 >= 0){
+        alert("Número Válido!");
+}
+else {
+    alert("Número Inválido!");
+}
+        // Converte os valores de string para número e calcula o resultado
+        var resultado = parseFloat(numero1) - parseFloat(numero2);
+         // Exibe o resultado
+        alert("Resultado: " + resultado);
+        break;
+        //Multiplicação
+        case "*":
+    var numero1 = prompt("Digite o primeiro número:");
+    if (numero1 >= 0){
+        alert("Número Válido!");
+}
+    else {
+    alert("Número Inválido!");
+}
+    var numero2 = prompt("Digite o segundo número:");
+     if(numero2 >= 0){
+        alert("Número Válido!");
+}
+else {
+    alert("Número Inválido!");
+}
+        // Converte os valores de string para número e calcula o resultado
+        var resultado = parseFloat(numero1) * parseFloat(numero2);
+         // Exibe o resultado
+        alert("Resultado: " + resultado);
+        break;
+        //divisão
+        case "/":
+    var numero1 = prompt("Digite o primeiro número:");
+    if (numero1 >= 0){
+        alert("Número Válido!");
+}
+    else {
+    alert("Número Inválido!");
+}
+    var numero2 = prompt("Digite o segundo número:");
+     if(numero2 > 0){
+        alert("Número Válido!");
+}
+else {
+    alert("Imposível dividir por zero!");
+    break;
+}
+        // Converte os valores de string para número e calcula o resultado
+        var resultado = parseFloat(numero1) / parseFloat(numero2);
+         // Exibe o resultado
+        alert("Resultado: " + resultado);
+        break;
+    
+}
+    
+    </script>
+
+</body>
+</html> 
